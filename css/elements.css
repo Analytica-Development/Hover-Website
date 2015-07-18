@@ -1,0 +1,67 @@
+/* ========== Elements ========== */
+
+/* Table of Contents
+==================================================
+    #Headings
+    #Buttons 
+*/
+
+
+/* #Headings
+================================================== */
+
+	h1 {
+		font-size: 36px;
+		font-weight: 400;
+		color: black;
+		line-height: 110%;
+	}
+	
+	h2 {
+		font-size: 24px;
+		font-weight: 400;
+		color: #093331;
+	}
+	
+	h3 {
+		font-size: 20px;
+		font-weight: 400;
+		color: #093331;
+	}
+	
+	h4 {
+		font-size: 16px;
+		font-weight: 400;
+		color: #093331;
+	}
+	
+	hr.top, hr.bottom { display: block; border: none; width: 940px; height: 26px; margin: 0; padding: 0; }
+	
+	hr.top { background: url('../images/separator-top.png') no-repeat; }
+	hr.bottom { background: url('../images/separator-bottom.png') no-repeat; }
+	
+
+/* #Buttons
+================================================== */
+
+	.button {
+		display: inline-block;
+		outline: none;
+		cursor: pointer;
+		color: #fff;
+		text-align: center;
+		text-decoration: none;
+		font-size: 18px;
+		padding: 40px 122px;
+			}
+	
+	
+	.button:active {
+		color: #fff; 
+		position: relative; 
+		top: 3px;
+		-webkit-box-shadow: inset 0px 1px 1px rgba(255,255,255,.4);
+		-moz-box-shadow: inset 0px 1px 1px rgba(255,255,255,.4);
+		box-shadow: inset 0px 1px 1px rgba(255,255,255,.4); 
+	}
+		
